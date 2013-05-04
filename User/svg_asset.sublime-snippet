@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+<g
+   id="${1:name}_attach"
+   transform="translate(${2:0},${3:-2000})">
+  <rect
+   style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+   id="${1:name}_guide"
+   width="1000"
+   height="1000"
+   x="0"
+   y="0" />
+  <path
+     inkscape:connector-curvature="0"
+     id="${1:name}"
+     d="M 200,400 C 294.26857,398.47475 401.43919,294.26992 400,200 398.54293,104.55892 286.78921,-0.38927271 191.42858,3.7907529 97.084464,7.9262207 -1.364469,120.87902 2.8571329,215.21932 6.8834984,305.19667 109.9444,401.45709 200,400 z"
+     style="fill:#ff0000;fill-opacity:1;stroke:none"
+     sodipodi:nodetypes="aaaaa" />
+</g>
+]]></content>
+  <tabTrigger>ass</tabTrigger>
+</snippet>

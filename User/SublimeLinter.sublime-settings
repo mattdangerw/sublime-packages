@@ -1,0 +1,18 @@
+{
+    "sublimelinter_disable":
+    [
+      //"python"
+    ],
+    "sublimelinter_delay": 2,
+    "sublimelinter_mark_style": "outline",
+    "pyflakes_ignore":
+    [
+      //"_"
+    ],
+    "pyflakes_ignore_import_*": true,
+
+    "sublimelinter_notes": true,
+
+    // The set of annotation phrases to highlight
+    "annotations": ["TODO"]
+}

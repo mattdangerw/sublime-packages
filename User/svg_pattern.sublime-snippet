@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+<pattern
+  patternUnits="userSpaceOnUse"
+  width="1024"
+  height="1024"
+  id="${1:name}">
+  <image
+    id="image2993"
+    xlink:href="file:///C:/Users/Matt/GitHub/tgc-demo/content/textures/${1:name}.jpg"
+    height="1024"
+    width="1024" />
+</pattern>
+]]></content>
+  <tabTrigger>pat</tabTrigger>
+</snippet>
