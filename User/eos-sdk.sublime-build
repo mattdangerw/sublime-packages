@@ -1,0 +1,12 @@
+{
+  "cmd": ["make install"],
+  "working_dir": "/home/matt/checkout/eos-sdk",
+  "file_regex": "^(...*?):([0-9]*):([0-9]*)",
+  "shell": true,
+  "variants": [
+    {
+      "cmd": ["G_DEBUG=fatal-warnings; gjs test/smoke-tests/app-window.js"],
+      "name": "Run"
+    }
+  ]
+}
