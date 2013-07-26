@@ -1,0 +1,16 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"auto_match_enabled": false,
+	"color_scheme": "Packages/Dayle Rees Color Schemes/Darkside.tmTheme",
+	"default_line_ending": "unix",
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"scroll_past_end": false,
+	"spell_check": true,
+	"tab_size": 2,
+	"theme": "Flatland Dark.sublime-theme",
+	"translate_tabs_to_spaces": true
+}
