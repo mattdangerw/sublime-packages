@@ -32,8 +32,6 @@ class RunMultipleCommandsCommand(sublime_plugin.TextCommand):
     if args is None:
       context.run_command(command['command'])
     else:
-      print("Running...")
-      print(command['command'])
       context.run_command(command['command'], args)
 
   def run(self, edit, commands = None):
